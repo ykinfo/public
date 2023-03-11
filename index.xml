@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yk Tech Blog</title>
-    <link>/</link>
+    <link>https://ykinfo.github.io/yktechblog/</link>
     <description>Recent content on yk Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language><atom:link href="https://ykinfo.github.io/yktechblog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
