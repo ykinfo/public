@@ -2,10 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/about/</loc>
+    <lastmod>2023-03-11T08:39:28+00:00</lastmod>
+  </url><url>
+    <loc>/2023/03/05/hugo%E3%81%A7blog%E3%82%92%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
   </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/</loc>
   </url>
 </urlset>
