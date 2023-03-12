@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on yk Tech Blog</title>
-    <link>/tags/hugo/</link>
-    <description>Recent content in hugo on yk Tech Blog</description>
+    <title>github pages on yk Tech Blog</title>
+    <link>/tags/github-pages/</link>
+    <description>Recent content in github pages on yk Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 11 Mar 2023 13:37:04 +0000</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 13:37:04 +0000</lastBuildDate><atom:link href="/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo on Github Pages</title>
       <link>/2023/03/11/hugo-on-github-pages/</link>
@@ -32,31 +32,6 @@ Github pagesにカスタムドメインを登録 次に、Github pagesにカス�
    ホスト名 TYPE VALUE     blog.yk-info.jp CNAME [username].github.io    参考： https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
 Apexドメイン（私の環境で言うとyk-info.jp）の場合は、Aレコードの登録等も必要なのだそうですが、サブドメインの場合はCNAMEレコードの追加だけでOKみたいでした。
 登録したら数分くらいで、Github pagesに公開したBlogにアクセス出来るようになりました。
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HugoでBlogを始めました。</title>
-      <link>/2023/03/05/hugo%E3%81%A7blog%E3%82%92%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
-      <pubDate>Sun, 05 Mar 2023 04:40:20 +0000</pubDate>
-      
-      <guid>/2023/03/05/hugo%E3%81%A7blog%E3%82%92%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</guid>
-      <description>
-        
-          
-            HugoでBlogを書いてみる、ということを始めてみました。
-今まではZennにも少し投稿したりしてきたのですが、これってZennに書いていいのかな？
-みたいなことを考えることがあったり、技術系のこと以外も書いてみたいことがあったので、
-いっそ自分でBlogを作ってみようとなりました。
-以下のような環境を作りました。
- Devcontainerで立ち上げた環境にVS Codeで接続 Markdownで記事作成 Markdownファイルへの画像貼り付けにPaste Image from local pc（これめっちゃ便利でした、感謝。。） Github pagesにビルドした静的ファイルをPublish Github pagesにカスタムドメインを設定  以下のリポジトリに、Hugo開発用のDev Container環境を上げました。
-https://github.com/ykinfo/devcontainer-hugo-extend-0.88.1
-Dev Container環境セットアップ時のメモを、以下のZennの記事に書きました。
-https://zenn.dev/ykdev/articles/be002a92df229f
-これから、勉強したことなど、色々と記事を書いて行こうと思います。
           
           
         

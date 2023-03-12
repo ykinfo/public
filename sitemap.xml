@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/laptop/</loc>
+    <lastmod>2023-03-11T14:08:32+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-03-11T14:08:32+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-03-11T14:08:32+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-03-11T14:08:32+00:00</lastmod>
+  </url><url>
+    <loc>/2023/03/11/%E3%83%8E%E3%83%BC%E3%83%88pc%E3%82%92%E8%B3%BC%E5%85%A5dell-inspiron-16-5625/</loc>
+    <lastmod>2023-03-11T14:08:32+00:00</lastmod>
+  </url><url>
+    <loc>/tags/github-pages/</loc>
+    <lastmod>2023-03-11T13:37:04+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2023-03-11T13:37:04+00:00</lastmod>
+  </url><url>
+    <loc>/2023/03/11/hugo-on-github-pages/</loc>
+    <lastmod>2023-03-11T13:37:04+00:00</lastmod>
+  </url><url>
     <loc>/about/</loc>
     <lastmod>2023-03-11T08:39:28+00:00</lastmod>
   </url><url>
@@ -11,22 +35,10 @@
     <loc>/tags/devcontainer/</loc>
     <lastmod>2023-03-05T04:40:20+00:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
-  </url><url>
     <loc>/categories/hugo/</loc>
     <lastmod>2023-03-05T04:40:20+00:00</lastmod>
   </url><url>
     <loc>/2023/03/05/hugo%E3%81%A7blog%E3%82%92%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</loc>
-    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-03-05T04:40:20+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2023-03-05T04:40:20+00:00</lastmod>
   </url>
 </urlset>

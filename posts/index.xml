@@ -6,7 +6,63 @@
     <description>Recent content in Posts on yk Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 05 Mar 2023 04:40:20 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 14:08:32 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ノートPCを購入（Dell Inspiron 16 5625）</title>
+      <link>/2023/03/11/%E3%83%8E%E3%83%BC%E3%83%88pc%E3%82%92%E8%B3%BC%E5%85%A5dell-inspiron-16-5625/</link>
+      <pubDate>Sat, 11 Mar 2023 14:08:32 +0000</pubDate>
+      
+      <guid>/2023/03/11/%E3%83%8E%E3%83%BC%E3%83%88pc%E3%82%92%E8%B3%BC%E5%85%A5dell-inspiron-16-5625/</guid>
+      <description>
+        
+          
+            タイトル通りのノートPCを購入しました。
+正直買ってみて、何で価格.comでこんなにランキング低いんだろう？？
+と思えるくらい、私にはベストマッチなlaptop PCだったので、紹介します！！
+しばらく使ってみてもコスパ良すぎと思ったので、激おすすめです。
+利用用途  家で利用するのがメイン、月に数回くらいは外に持ち出すかも。  画面大きめが良い 流行りの少し縦長の画面が良い テンキーはいらない   開発作業がしたい。  CPUはそれなりに良いものが良い メモリは多めが良い    こんな条件で探してたら、コスパも踏まえて最もマッチしたのが今回購入した`Inspiron 16 5625でした。
+ざっくりスペック    項目 値     画面 16インチ   解像度 1920 x 1200   CPU Ryzen 7 5825U   メモリ 16GB   重量 1.87 kg    これで、9.5万円くらいでした。（税、送料込み）
+詳しくはこのへん↓
+https://kakaku.com/item/J0000037942/spec/#tab
+Review Good point Goodかどうかは人に依る点もありますが、個人的に特筆すべき特徴が以下です。
+ メモリ・ストレージの交換が可能 画面が少し縦長 テンキーレス タッチパッドの精度が悪くない PD対応  メモリ・ストレージの交換が可能 これはやばいです。私はメモリ64GBに換装しました。
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Hugo on Github Pages</title>
+      <link>/2023/03/11/hugo-on-github-pages/</link>
+      <pubDate>Sat, 11 Mar 2023 13:37:04 +0000</pubDate>
+      
+      <guid>/2023/03/11/hugo-on-github-pages/</guid>
+      <description>
+        
+          
+            Hugo blogの公開先の選定 Hugoで作成した本ブログの公開先を検討していました。費用的に初めはGoogle Cloud Storageで良いかなと思ったのですが、調べてみるとカスタムドメイン+HTTPS、という環境で公開するにはロードバランサが必要になる、ということで、費用がマッチしなそうでした。。
+次にAzure Blobストレージなら、特にCloud Storageの様な制約は無く、カスタムドメイン+HTTPSでの公開が出来そうということで、これにしようかなと思ってたらGithub pagesという存在を知りました。なんとストレージ自体の費用は無しで、カスタムドメイン+HTTPSでの公開も出来るということで、こちらを採用することにしました。
+Hugoで作成したサイトの公開 基本的には、以下の手順で行ってます。
+ Hugoブログ用のリポジトリをGithub上に作成 hugoコマンドでビルド publicフォルダに作成されたファイル群を、1.で作成したgithubリポジトリにpush  作成したリポジトリに対してpagesの設定をONにしていたら、これだけでhttps://&amp;lt;username&amp;gt;.github.io/&amp;lt;repositoryname&amp;gt;というURLに公開されます。
+利用に関する制限とか、設定手順とかは↓この辺に書いてあると思います。
+https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages
+https://docs.github.com/ja/pages/getting-started-with-github-pages/creating-a-github-pages-site
+カスタムドメインとか不要で、URLはこのままでいいよーって人は↑のままでもう公開できるはずです。
+Github pagesにカスタムドメインを登録 次に、Github pagesにカスタムドメインを登録します。
+今回、私はblog.yk-info.jpというサブドメインを登録することにしました。
+ドメインはお名前.comで取得しました。
+ドメインの検証 まず、ドメインの検証として以下のようなTXTレコードの登録を求められました。    ホスト名 TYPE VALUE     _github-pages-challenge-ykinfo.blog.yk-info.jp TXT 検証用コード    参考： https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
+カスタムドメインの設定 次に、CNAMEレコードの登録を行いました。
+   ホスト名 TYPE VALUE     blog.yk-info.jp CNAME [username].github.io    参考： https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
+Apexドメイン（私の環境で言うとyk-info.jp）の場合は、Aレコードの登録等も必要なのだそうですが、サブドメインの場合はCNAMEレコードの追加だけでOKみたいでした。
+登録したら数分くらいで、Github pagesに公開したBlogにアクセス出来るようになりました。
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>HugoでBlogを始めました。</title>
       <link>/2023/03/05/hugo%E3%81%A7blog%E3%82%92%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
