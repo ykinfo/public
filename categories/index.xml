@@ -5,6 +5,7 @@
     <link>/categories/</link>
     <description>Recent content in Categories on yk Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 05 Mar 2023 04:40:20 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

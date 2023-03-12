@@ -18,12 +18,14 @@
           
             HugoでBlogを書いてみる、ということを始めてみました。
 今まではZennにも少し投稿したりしてきたのですが、これってZennに書いていいのかな？
-みたいなことを考えるのが面倒になったので、自分でブログを作ることにしました。
-以下のリポジトリに、Hugo開発用のDev Container環境を上げました。
+みたいなことを考えることがあったり、技術系のこと以外も書いてみたいことがあったので、
+いっそ自分でBlogを作ってみようとなりました。
+以下のような環境を作りました。
+ Devcontainerで立ち上げた環境にVS Codeで接続 Markdownで記事作成 Markdownファイルへの画像貼り付けにPaste Image from local pc（これめっちゃ便利でした、感謝。。） Github pagesにビルドした静的ファイルをPublish Github pagesにカスタムドメインを設定  以下のリポジトリに、Hugo開発用のDev Container環境を上げました。
 https://github.com/ykinfo/devcontainer-hugo-extend-0.88.1
-Dev Container環境セットアップ時のメモは、以下のZennの記事に書きました。
+Dev Container環境セットアップ時のメモを、以下のZennの記事に書きました。
 https://zenn.dev/ykdev/articles/be002a92df229f
-これからHugoで作った本Blogに勉強してきたメモなどを投下していこうと思います。
+これから、勉強したことなど、色々と記事を書いて行こうと思います。
           
           
         
